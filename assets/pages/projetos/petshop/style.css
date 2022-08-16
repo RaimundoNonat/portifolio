@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.main {
+    background: #383734;
+}
+
+header {
+    color: rgb(83, 83, 100);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.row {
+    text-align: center;
+    text-size-adjust: center;
+}
+
+#titulo {
+    font-size: 80px;
+    bottom: 5%;
+    font-family: 'Times New Roman';
+    color: black;
+    text-align: center;
+    padding: 3%;
+    background-color: #383734;;
+    margin: 0px;
+}
+
+#tabela {
+    background-color: rgb(107, 97, 91);
+    border-radius: 10px;
+    border-top-left-radius: 1%;
+    margin: 5px;
+}
+
+#tabela :hover {
+    color: rgb(37, 4, 4);
+
+}
+
+#tabela h6 {
+    text-align: center;
+    color: white;
+    margin-top: 8px;
+}
+
+#tabela a {
+    color: white;
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    margin-top: 6px;
+}
+
+#descricao {
+    background-color: antiquewhite;
+    border-radius: 10%;
+    margin: 2%;
+    margin-top: 0;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+}
+
+#carousel {
+    text-align: center;
+    height: 30%;
+}
+
+#promocao {
+    background-color: white;
+    margin-top: 1%;
+    margin-left: 0%;
+    margin-bottom: 1%;
+    border-radius: 1em;
+}
+
+#promocao img {
+    text-align: center;
+    width: 100%;
+    border-radius: 2%;
+    margin-top: 15%;
+}
+
+#promocao a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#promocao a:hover {
+    color: rgb(21, 73, 168);
+}
+
+
+#aproveite {
+    color: white;
+    font-size: 24px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#preco {
+    color: rgb(190, 28, 28);
+    font-size: 14px;
+}
+#preco:hover {
+    color: rgb(255, 5, 5);
+    font-size: 15px;
+}
+
+
+#produtos {
+    margin-top: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#adocao {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+#adocao img {
+    width: 250px;
+    height: 175px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 8%;
+    margin-left: 70%;
+}
+
+#adocao img:hover {
+    transition-duration: 1s;
+    border-radius: 20%;
+}
+
+#adocao-titulo {
+    margin-top: 5%;
+    color: #fdb28f;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#adocao li {
+    text-align: left;
+    margin-top: 4%;
+    color: #df9e80;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#avaliacao img {
+    text-align: center;
+    width: 150px;
+    height: 170px;
+    border-radius: 5em;
+}
+#avaliacao img:hover {
+    text-align: center;
+    width: 150px;
+    height: 170px;
+    margin-left: 1%;
+}
+
+#avaliacao {
+    width: 20px;
+    margin: 10px;
+    color: black;
+    margin-top: 5%;
+}
+
+#avaliacao-titulo {
+    color: black;
+    margin-top: 5%;
+}
+
+.estrelas {
+    color: rgb(46, 126, 14);
+}
+.estrelas-green {
+    color: rgb(103, 173, 107);
+}
+
+#botao h6 a {
+    color: black;
+    background-color: transparent;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 2%;
+    border: 0;
+    width: 9%;
+    margin-left: 50%;
+}
+#botao h6 a:hover {
+    color: rgb(185, 8, 8);
+  
+}
+
+#login {
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: #383734;
+    height: 100%;
+    color: white;
+    margin-bottom: 0%;
+    padding: 3%;
+    margin-top: 10%;
+}
+
+#hr {
+    border-radius: 90%;
+    color: white;
+}

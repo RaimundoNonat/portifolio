@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+
+* {
+    background: rgb(31, 31, 28);
+    margin: 0;
+}
+
+header {
+    margin-top: 10%;
+    text-align: center;
+}
+
+header h1 {
+    color: rgb(214, 219, 219);
+    font-family: 'Aboreto', cursive;
+    margin-right: 38%;
+}
+
+header h1:hover {
+    color: rgb(109, 65, 150);
+    transition-duration: 3s;
+}
+
+
+.perfil {
+    width: 150px;
+    height: 200px;
+    border-radius: 40%;
+    margin-left: 650px;
+    margin-top: -8%;
+
+}
+
+.perfil:hover {
+    transition-duration: 3s;
+    border-radius: 20%;
+}
+
+/* ---------------------------------------------------- */
+/* Descrição */
+
+.imagem {
+    text-align: center;
+    margin-left: 45%;
+    margin-bottom: -15%;
+    width: 220px;
+    height: 120px;
+}
+
+.descricao {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+/* ---------------------------------------------------- */
+/* Contato */
+
+.barra {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-color: cornflowerblue;
+}
+
+
+/* ---------------------------------------------------- */
+/* Contato */
+
+.contato {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.contato button {
+    color: black;
+    background: cornflowerblue;
+    border: tomato;
+    padding: 15px;
+    border-radius: 30%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.contato button:hover {
+    background-color: rgb(109, 65, 150);
+    transition-duration: 0.5s;
+
+}
+
+/* ---------------------------------------------------- */
+/* Footer */
+
+footer {
+    margin-top: 15%;
+    position: relative;
+    margin-bottom: 0;
+    padding: 2%;
+    background-color: rgb(92, 96, 102);
+    color: white;
+    text-align: center;
+    border-color: transparent;
+}
+
+footer p {
+    background-color: transparent;
+}

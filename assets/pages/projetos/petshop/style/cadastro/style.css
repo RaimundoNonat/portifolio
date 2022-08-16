@@ -1,0 +1,14 @@
+* {
+    color: white;
+}
+
+body {
+    background-color: #c27f1b;
+    text-align: center;
+}
+
+#cadastro {
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    color: black;
+}

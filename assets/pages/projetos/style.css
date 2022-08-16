@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+body {
+    margin: 0;
+    width: auto;
+    height: 100%;
+    background: rgb(31, 31, 28);
+}
+
+header {
+    color: white;
+    font-family: 'Aboreto', cursive;
+    padding: 5%;
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+
+div {
+    width: 17%;
+    display: inline-block;
+    margin-top: 5%;
+
+}
+div img {
+    width: 511px;
+    height: 181px;
+    cursor: pointer;
+
+}
+
+#teste1 {
+    margin-left: 15%;
+        
+}
+
+#teste2 {
+    margin-left: 20%;
+    text-align: center;
+    color: white;
+}
+
+.titulo {
+    margin-top: 5%;
+    border-color: rgb(212, 221, 236);
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: -15%;
+    margin-bottom: 10%;
+}
+
+
+
+
+footer {
+    height: 0%;
+    position: relative;
+    padding: 3%;
+    background-color: rgb(92, 96, 102);
+    text-align: center;
+    border-color: transparent;
+    margin-bottom: 0%;
+    margin-top: 10%;
+}
+
+footer p {
+    background-color: transparent;
+    color: white;
+}
+
