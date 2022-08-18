@@ -112,8 +112,8 @@ footer p {
     background-color: transparent;
 }
 
-@media (max-width: 480px) {
-    
+
+@media (max-width: 480px){
     .contato button {
         color: black;
         background: cornflowerblue;
@@ -136,7 +136,6 @@ footer p {
         border-radius: 40%;
         margin-left: 270px;
         margin-top: -27%;
-    
     }
     header h1 {
         color: rgb(214, 219, 219);
@@ -167,7 +166,7 @@ footer p {
     }
 }
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
     .contato button {
         color: black;
         background: cornflowerblue;
@@ -177,6 +176,7 @@ footer p {
         border-radius: 30%;
         margin-left: 10%;
         cursor: pointer;
+        margin-top: 8%;
         margin-bottom: 1%;
     }
     
@@ -224,4 +224,4 @@ footer p {
     }
 
 
-}
+} */
