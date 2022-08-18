@@ -111,3 +111,117 @@ footer {
 footer p {
     background-color: transparent;
 }
+
+@media (max-width: 480px) {
+    
+    .contato button {
+        color: black;
+        background: cornflowerblue;
+        border: tomato;
+        padding: 5px;
+        border-radius: 30%;
+        margin-left: 15%;
+        cursor: pointer;
+        margin-bottom: 5%;
+    }
+    .barra {
+        margin-top: 10%;
+        margin-left: 15%;
+        margin-right: 0%;
+        border-color: cornflowerblue;
+    }
+    .perfil {
+        width: 120px;
+        height: 160px;
+        border-radius: 40%;
+        margin-left: 270px;
+        margin-top: -27%;
+    
+    }
+    header h1 {
+        color: rgb(214, 219, 219);
+        font-family: 'Aboreto', cursive;
+        margin-right: 38%;
+        font-size: 22px;
+        margin-left: 18%;
+    }
+    .descricao {
+        text-align: justify;
+        margin-top: 5%;
+        margin-left: 20%;
+        margin-right: 0%;
+        color: white;
+        font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+    }
+    footer {
+        margin-top: 15%;
+        position: relative;
+        margin-bottom: 0;
+        width: 100%;
+        padding: 10%;
+        background-color: rgb(92, 96, 102);
+        color: white;
+        text-align: center;
+        border-color: transparent;
+    }
+}
+
+@media (max-width: 768px){
+    .contato button {
+        color: black;
+        background: cornflowerblue;
+        border: tomato;
+        padding: 15px;
+        margin-right: -10%;
+        border-radius: 30%;
+        margin-left: 10%;
+        cursor: pointer;
+        margin-bottom: 1%;
+    }
+    
+    .barra {
+        margin-top: 10%;
+        margin-left: 20%;
+        margin-right: 0%;
+        border-color: cornflowerblue;
+    }
+    .perfil {
+        width: 120px;
+        height: 160px;
+        border-radius: 40%;
+        margin-left: 370px;
+        margin-top: -5%;
+    
+    }
+    header h1 {
+        color: rgb(214, 219, 219);
+        font-family: 'Aboreto', cursive;
+        margin-right: 38%;
+        font-size: 22px;
+        margin-left: 22%;
+        margin-bottom: -5%;
+    }
+    .descricao {
+        text-align: justify;
+        margin-top: 5%;
+        margin-left: 20%;
+        margin-right: 0%;
+        color: white;
+        font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+    }
+    footer {
+        margin-top: 15%;
+        position: relative;
+        margin-bottom: 0;
+        width: 100%;
+        padding: 10%;
+        background-color: rgb(92, 96, 102);
+        color: white;
+        text-align: center;
+        border-color: transparent;
+    }
+
+
+}
