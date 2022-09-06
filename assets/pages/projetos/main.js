@@ -3,5 +3,5 @@ function logo() {
 }
 
 function logo1() {
-    window.location.href = "./lista de compras/index.html"
+    window.location.href = "./projetos/lista de compras/index.html"
 }
