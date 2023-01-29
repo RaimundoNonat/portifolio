@@ -189,8 +189,6 @@ transition: 1s;
 
 /* FIM AVALIACAO */
 
-
-
 footer {
     text-align: center;
     background-color: #383734;
@@ -201,77 +199,208 @@ footer {
     margin-top: 10%;
 }
 
-#hr {
-    border-radius: 90%;
-    color: white;
-}
-
 
 @media (max-width: 480px){
-    #login {
-        margin-top: 5%;
-        margin-bottom: 30px;
-        font-size: 44px;
+    header {
+        color: rgb(83, 83, 100);
+        text-align: center;
+    }
+    
+    .titulo-header {
+        font-size: 34px;
         font-family: 'Raleway', sans-serif;
         color: white;
         text-align: center;
+        padding: 3%;
+        background-color: #383734;;
     }
-    #botao {
-        color: black;
-        background-color: transparent;
-        display: inline-block;
+    
+    .botao a {
+        color: black; 
         text-decoration: none;
         font-size: 20px;
         font-family: 'Rajdhani', sans-serif;
         margin-top: 2%;
-        border: 0;
-        width: 9%;
-        margin-left: 23%;
     }
+    .botao a:hover {
+        color: rgb(185, 8, 8);
+    }
+    
+    .foto img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    /* FIM HEADER */
+    
+    
+    /* INICIO TABELA */
+    #tabela {
+        background-color: rgb(107, 97, 91);
+        border-radius: 5px 5px 0px 0px;
+        text-align: center;
+    }
+    #tabela :hover {
+        color: white;
+        background-color: tomato;
+        
+    }
+    
+    #tabela h6 {
+       padding: 2%;
+    }
+    
+    #tabela a {
+        color: white;
+        text-decoration: none;  
+    }
+    /* FIM TABELA */
+    
+    
+    /* INICIO DESCRICAO */
     #descricao {
         display: none;
     }
-    #promocao img {
-        width: 110px;
-        margin-top: 1%;
-
+    
+    #descricao p {
+        color: black;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 1% 0% 5% 0%;
     }
-    #promocao {
-        background-color: white;
-        margin-left: 0%;
-        margin-bottom: 1%;
-        border-radius: 1em;
+    #descricao div {
+        border: 1px solid rgb(218, 204, 186);
     }
-    #tabela {
+    /* FIM DESCRICAO */
+    
+    
+    /* INICIO PRODUTOS */
+    .titulo-produtos {
+        margin-top: 10%; 
+    }
+    .titulo-produtos h4 {
+        color: black;
+        font-size: 34px;
+        text-align: center;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    
+    .produtos {
         background-color: rgb(107, 97, 91);
-        border-radius: 8px;
-        border-top-left-radius: 0%;
-        margin: 2px;
-        margin-left: 0px;
-        display: inline-block;
+        margin: 5% 1% 5% 1%;
+        border-radius: 10px;
     }
-
-    #adocao img {
-        width: 150px;
-        height: 150px;
-        max-width: 200px;
-        max-height: 200px;
-        border-radius: 8%;
+    
+    .produtos img {
+        width: 120px;
+        border-radius: 5px;
+        margin-top: 5%;
+        margin-left: 35%;
+    }
+    
+    .nome-prod {
+        margin: 5% 0% 1% 0%;
+        text-align: center ;
+        color: white;
+        font-size: 16px;
+    }
+    
+    .preco {
+        text-align: center;
+        color: rgb(212, 228, 247);
+        font-size: 12px;
+    }
+    
+    /* FIM PRODUTOS */
+    
+    
+    /* INICIO ADOCAO */
+    
+    .adocao {
+        padding: 5%;
+        background-color: rgb(116, 38, 103);
+    }
+    
+    .adocao-titulo h4 {
+        color: white;
+        font-size: 26px;
+        text-align: center;
+    }
+    
+    .adocao-dogs {
+        display: flex;
+        margin: 4%;
         margin-left: 10%;
     }
-    #avaliacao img {
-        text-align: center;
-        width: 80px;
-        height: 100px;
-        border-radius: 5em;
-  
+    
+    .dog {
+        width: 110px;
+        height: 90px;
+        margin-top: 2%;
+        border-radius: 5px;
     }
-    #avaliacao {
-        width: 5px;
-        margin: 75px;
+    .dog:hover {
+    border-radius: 25px;
+    transition: 1s;
+    }
+    
+    .info {
+        list-style: none;
+        text-decoration: none;
+        margin:  2% 2% 0% 2% ;
+        color: white;
+        width: 180px; 
+    }
+    
+    /* FIM ADOCAO */
+    
+    /* INICIO AVALIACAO */
+    
+    .avaliacao {
+        display: flex;
+    }
+    
+    .avaliacao div {
+        margin: 5% 0% 2% 10%;
+    }
+    
+    .avaliacao h6 {
+        margin: 0% 0% 5% 0%;
+        text-align: center;
+    }
+    
+
+    .avaliacao img {
+        width: 110px;
+        height: 110px;
+        margin-left: 20%;
+    }
+    
+    
+    #avaliacao-titulo {
         color: black;
         margin-top: 5%;
     }
+    
+    .estrelas {
+        color: rgb(46, 126, 14);
+        width: 9px;
+    }
+    .estrelas-green {
+        color: rgb(103, 173, 107);
+       width: 9px;
+    }
+    
+    /* FIM AVALIACAO */
+    
+    footer {
+        text-align: center;
+        background-color: #383734;
+        height: 100%;
+        color: white;
+        margin-bottom: 0%;
+        padding: 3%;
+        margin-top: 10%;
+    }
 
-  
+
 }
