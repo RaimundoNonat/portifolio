@@ -12,11 +12,7 @@
     padding: 1%;
     display: flex;
 }
-.contato img  {
-    width: 119px;
-    height: 64px;
-    margin: 4% 0% 0% 15%;
-}
+
 .contato button {
     color: white;
     background: cornflowerblue;
@@ -24,7 +20,7 @@
     cursor: pointer;
     width: 70px;
     height: 40px;
-    margin: 5% 0% 0% 12%;
+    margin: 5% 10% 0% 15%;
     border: transparent;
 }
 .contato button:hover {

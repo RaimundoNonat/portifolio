@@ -4,6 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 
+* {
+    margin: 0;
+    
+}
+
 /* HEADER */
 header {
     color: rgb(83, 83, 100);
@@ -383,11 +388,11 @@ footer {
     
     .estrelas {
         color: rgb(46, 126, 14);
-        width: 9px;
+        width: 8px;
     }
     .estrelas-green {
         color: rgb(103, 173, 107);
-       width: 9px;
+       width: 8px;
     }
     
     /* FIM AVALIACAO */
