@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Sofia+Sans:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+header {
+    margin: 2%;
+    display: flex;
+    color: rgb(150, 37, 150);
+
+}
+
+header h1 {
+    font-size: 30px;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1,
+ul {
+    margin-left: 15%;
+    width: 35%;
+}
+
+header ul {
+    margin-left: 40%;
+    display: flex;
+    font-size: 20px;
+}
+
+header li {
+    font-size: 16px;
+    margin-left: 5%;
+    list-style: none;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    background-color: rgb(150, 37, 150);
+    color: white;
+    padding: 2%;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+header li:active {
+    border: 1px solid white;
+}
+
+.opcoes {
+    background-color: rgb(150, 37, 150);
+    color: white;
+    padding: 8%;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.opcoes h2 {
+    font-size: 38px;
+    margin-bottom: 2%;
+}
+
+.menu-carousel {
+    display: flex;
+}
+
+.retorna {
+    margin: 5% 0% -8% 37%;
+    cursor: pointer;
+
+}
+
+.frente {
+    margin: 5% 0% -8% 20%;
+    cursor: pointer;
+
+}
+
+
+.opcoes2 {
+    background-color: rgb(104, 16, 104);
+    color: white;
+    padding: 8%;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    font-family: 'Sofia Sans', sans-serif;
+    margin-top: 0%;
+    position: relative;
+    display: none;
+}
+
+.opcoes2 h2 {
+    font-size: 38px;
+    margin-bottom: 2%;
+}
+
+.titulo-invest {
+    font-size: 30px;
+    color: blueviolet;
+    text-align: center;
+    margin: 5% 0% 0% 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.investimentos {
+    margin: 7%;
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.investimentos h3 {
+    margin-bottom: 2%;
+    color: blueviolet;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+}
+
+.investimentos ul {
+    margin-top: 4%;
+    margin-left: 5%;
+    font-size: 14px;
+    width: 85%;
+}
+
+.display-invest {
+    display: flex;
+}
+
+button {
+    background-color: blueviolet;
+    margin-top: 5%;
+    padding: 2%;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 14%;
+}
+
+button:active {
+    color: violet;
+
+}
+
+.display {
+    display: flex;
+}
+
+.display-none-rendaFixa {
+    text-align: center;
+    color: white;
+    padding: 0% 3% 3% 3%;
+    background: rgb(153, 73, 153);
+    width: 300px;
+    height: 240px;
+    margin: -25% 0% 2% 4%;
+    border-radius: 20px 5px 5px 20px;
+    position: relative;
+    display: none;
+}
+
+.display-none-rendaFixa button {
+    margin-left: 100%;
+}
+
+.display-none-rendaFixa h3 {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 4%;
+}
+
+.display-none-rendaFixa ul li {
+    margin-top: 3%;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* variavel */
+
+.display-none-rendaVariavel {
+    text-align: center;
+    padding: 0% 3% 3% 3%;
+    color: white;
+    background: rgb(153, 73, 153);
+    width: 300px;
+    height: 240px;
+    margin: -25% 0% 2% 35%;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    display: none;
+}
+
+.display-none-rendaVariavel button {
+    margin-left: 100%;
+}
+
+.display-none-rendaVariavel h3 {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 4%;
+}
+
+.display-none-rendaVariavel ul li {
+    margin-top: 3%;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Ambos */
+
+
+.display-none-ambos {
+    text-align: center;
+    padding: 0% 3% 3% 3%;
+    color: white;
+    background: rgb(153, 73, 153);
+    width: 300px;
+    height: 240px;
+    margin: -25% 0% 2% 65%;
+    border-radius: 5px 20px 20px 5px;
+    position: relative;
+    display: none;
+}
+
+.display-none-ambos button {
+    margin-left: 100%;
+}
+
+.display-none-ambos h3 {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 4%;
+}
+
+.display-none-ambos ul li {
+    margin-top: 3%;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Rodapé */
+
+footer {
+    display: flex;
+    background: rgb(153, 73, 153);
+    padding: 5%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+footer div {
+    margin: 0% 10% 0% 10%;
+    color: white;
+    width: 200px;
+}
+
+footer h3 {
+    font-size: 22px;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+footer h4 {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer h3:hover {
+    font-size: 22px;
+    border-bottom: 1px solid rgb(139, 115, 115);
+}
+
+.desenvolvido {
+    color: white;
+    background: rgb(153, 73, 153);
+    padding: 2%;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
+.icone {
+    width: 50px;
+    height: 35px;
+    margin-left: 5%;
+}

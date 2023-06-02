@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <title>Testes</title>
+</head>
+
+<body>
+  <header>
+    <h1>RH Investimentos</h1>
+    <ul>
+      <li onclick="entrarLogin()">Entrar</li>
+      <li onclick="contato()">Contato</li>
+    </ul>
+  </header>
+  <section class="opcoes">
+    <h2>Opções de investimentos</h2>
+    <h3>Confira investimentos em ações, renda fixa, CDB, fundos e muito mais.</h3>
+    <img class="retorna" onclick="carousel01()" src="./retorna.png" alt="retornar">
+    <img class='frente' onclick="carousel01()" src="./frente.png" alt="frente">
+    
+  </section>
+
+  <section class="opcoes2">
+    <h2>Melhores taxas do mercado</h2>
+    <h3>Aqui você pode comprar e vender sem medo, oferemos as melhores taxas.</h3>
+    <div class="menu-carousel"></div>
+    <img class="retorna" onclick="carousel02()" src="./retorna.png" alt="retornar">
+    <img class='frente' onclick="carousel02()" src="./frente.png" alt="frente">
+  </section>
+
+  <section>
+    <h2 class="titulo-invest">Conheça todos os investimentos</h2>
+    <div class="display-invest">
+      <div class="investimentos">
+        <h3>Renda Fixa</h3>
+        <p>Porta de entrada do mundo dos investimentos. Possui modalidades prefixadas e pós-fixadas. Ideal para quem
+          quer
+          começar. </p>
+        <ul>
+          <li>Investimento mais seguro do mercado</li>
+          <li>Rende mais do que a poupança</li>
+        </ul>
+        <button onclick="rendaFixa()">Saiba mais</button>
+      </div>
+
+      <div class="investimentos">
+        <h3>Renda Variável</h3>
+        <p>Porta de entrada do mundo dos investimentos. Possui modalidades prefixadas e pós-fixadas. Ideal para quem
+          quer
+          começar. </p>
+        <ul>
+          <li>Investimento mais seguro do mercado</li>
+          <li>Rende mais do que a poupança</li>
+        </ul>
+        <button onclick="rendaVariavel()">Saiba mais</button>
+
+      </div>
+
+      <div class="investimentos">
+        <h3>Ambos</h3>
+        <p>Porta de entrada do mundo dos investimentos. Possui modalidades prefixadas e pós-fixadas. Ideal para quem
+          quer
+          começar. </p>
+        <ul>
+          <li>Investimento mais seguro do mercado</li>
+          <li>Rende mais do que a poupança</li>
+        </ul>
+        <button onclick="ambos()">Saiba mais</button>
+      </div>
+    </div>
+    <div class="display">
+      <div class="display-none-rendaFixa">
+        <button onclick="rendaFixa()">X</button>
+        <h3>Renda Fixa</h3>
+        <p>Aqui estão alguns produtos para investimento:</p>
+        <ul>
+          <li>Poupança</li>
+          <li>CDB</li>
+          <li>Tesouro Direto</li>
+          <li>LCA e LCI</li>
+          <li>Letra de Câmbio</li>
+        </ul>
+      </div>
+
+      <div class="display-none-rendaVariavel">
+        <button onclick="rendaVariavel()">X</button>
+        <h3>Renda Variável</h3>
+        <p>Aqui estão alguns produtos para investimento:</p>
+        <ul>
+          <li>Poupança</li>
+          <li>CDB</li>
+          <li>Tesouro Direto</li>
+          <li>LCA e LCI</li>
+          <li>Letra de Câmbio</li>
+        </ul>
+      </div>
+
+      <div class="display-none-ambos">
+        <button onclick="ambos()">X</button>
+        <h3>Ambos</h3>
+        <p>Aqui estão alguns produtos para investimento:</p>
+        <ul>
+          <li>Poupança</li>
+          <li>CDB</li>
+          <li>Tesouro Direto</li>
+          <li>LCA e LCI</li>
+          <li>Letra de Câmbio</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+  <footer>
+    <div>
+      <img class="icone" src="./home.png" alt="home">
+      <h3>Sobre nós</h3>
+      <h4>Quem Somos</h4>
+
+    </div>
+    <div>
+      <img class="icone" src="./grafico.png" alt="">
+      <h3>Primeiros Passos</h3>
+      <h4>Como começar a invesir</h4>
+    </div>
+    <div>
+      <img class="icone" src="./calculadora.png" alt="">
+      <h3>Simulador</h3>
+      <h4>Tesouro Prefixado</h4>
+    </div>
+  </footer>
+
+  <div class="desenvolvido">
+    <h4>Copyright - 2023</h4>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>

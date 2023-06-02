@@ -1,0 +1,33 @@
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: rgb(8, 79, 13);
+    padding: 20px;
+    color: white;
+    border-radius: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+form input {
+    font-size: 16px;
+    height: 20px;
+
+}
+form button{
+    border: none;
+    background: var(--primary-color);
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
