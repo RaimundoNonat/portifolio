@@ -106,8 +106,23 @@ footer img {
     margin-left: 2%;
     cursor: pointer;
 }
+@media (min-width: 768px) {
+    .opcoes {
+        display: none;
+    }
+    .opcoes2 {
+        display: none;
+    }
+
+}
 
 @media (max-width: 768px) {
+    .opcoes {
+        display: none;
+    }
+    .opcoes2 {
+        display: none;
+    }
 
 }
 
@@ -126,7 +141,25 @@ footer img {
         margin-bottom: 2%;
         text-align: center;
     }
-
+    .menu {
+        border-radius: 0;
+        margin: 0%;
+        width: auto;
+        height: auto;
+        display: none;
+    }
+    .menu h2{
+        margin: 0%;
+        font-size: 11px;    
+    }
+    .menu h2:active{
+        border: 1px solid rgb(171, 36, 15);
+        height: auto;
+    }    
+    .menu p {
+        margin: 8% 5% 5% 5%;
+        font-size: 10px;
+    }
     .sessao nav{
         margin: 5%;
     }
@@ -176,6 +209,7 @@ footer img {
         color: white;
         padding: 8%;
         margin-bottom: 10%;
+        display: block;
     }
     
     .opcoes h3 {
