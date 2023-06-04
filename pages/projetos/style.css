@@ -25,7 +25,7 @@ header h1 {
 .sessao {
     display: flex;
     margin: 5%;
-    background-color: blueviolet;
+    background-color: #493e54;
     text-align: center;
     border-radius: 5px;
 }
@@ -53,8 +53,7 @@ header h1 {
     margin: 2%;
 }
 
-.sessao div:hover {
-    margin: 8%;
+.sessao div:hover { 
     cursor: pointer;
     background-color: rgb(43, 39, 46);
     border: 1px solid rgb(22, 5, 39);
@@ -73,35 +72,48 @@ footer p {
     color: white;
 }
 
-@media (max-width: 480px) {
 
+
+@media (max-width: 768px) {
     /* Header */
-    header {
-        color: white;
-        font-family: 'Aboreto';
-        text-align: center;
-        font-size: 12px;
-    }
-
     header h1 {
-        border-bottom: 1px solid white;
-        margin: 0% 35% 0% 35%;
+        font-size: 16px;
     }
 
     /* Sessão */
     .sessao {
-        display: flex;
-        margin: 5%;
-        background-color: rgb(51, 49, 190);
-        text-align: center;
-        border-radius: 5px;
+        margin: 2%;
     }
 
     .sessao div {
-        margin: 5%;
-        cursor: pointer;
-        background-color: rgb(147, 58, 230);
-        border: 1px solid rgb(115, 46, 180);
+        margin: 2%;
+    }
+
+    .sessao img {
+        width: 140px;
+        height: 130px;
+    }
+
+    .sessao h4 {
+        font-size: 16px;
+    }
+
+    .sessao p {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    /* Header */
+    header h1 {
+       font-size: 16px;
+    }
+
+    /* Sessão */
+    .sessao {
+        border-radius: 10px;
     }
 
     .sessao img {
@@ -110,112 +122,11 @@ footer p {
     }
 
     .sessao h4 {
-        color: rgb(235, 205, 199);
         font-size: 14px;
     }
 
     .sessao p {
-        color: white;
         font-size: 12px;
-        margin: 3%;
-    }
-
-    .sessao div:hover {
-        margin: 5%;
-        cursor: pointer;
-        background-color: rgb(43, 39, 46);
-        border: 1px solid rgb(22, 5, 39);
-    }
-
-    footer {
-        height: 0%;
-        position: static;
-        padding: 3%;
-        background-color: rgb(92, 96, 102);
-        text-align: center;
-        border-color: transparent;
-        margin-bottom: 0%;
-        margin-top: 10%;
-    }
-
-    footer p {
-        background-color: transparent;
-        color: white;
-    }
-
-}
-
-@media (min-width: 768px) {
-
-    /* Header */
-    header {
-        color: white;
-        font-family: 'Aboreto';
-        text-align: center;
-        margin: 5% 0% 5% 0%;
-        font-size: 20px;
-    }
-
-    header h1 {
-        border-bottom: 1px solid white;
-        margin: 0% 35% 0% 35%;
-    }
-
-    /* Sessão */
-    .sessao {
-        display: flex;
-        margin: 5%;
-        background-color: blueviolet;
-        text-align: center;
-        border-radius: 5px;
-    }
-
-    .sessao div {
-        margin: 8%;
-        cursor: pointer;
-        background-color: rgb(147, 58, 230);
-        border: 1px solid rgb(115, 46, 180);
-    }
-
-    .sessao img {
-        width: 200px;
-        height: 180px;
-    }
-
-    .sessao h4 {
-        color: rgb(235, 205, 199);
-        font-size: 20px;
-    }
-
-    .sessao p {
-        color: white;
-        font-size: 16px;
-        margin: 2%;
-    }
-
-    .sessao div:hover {
-        margin: 8%;
-        cursor: pointer;
-        background-color: rgb(43, 39, 46);
-        border: 1px solid rgb(22, 5, 39);
-    }
-
-
-
-    footer {
-        height: 0%;
-        position: relative;
-        padding: 3%;
-        background-color: rgb(92, 96, 102);
-        text-align: center;
-        border-color: transparent;
-        margin-bottom: 0%;
-        margin-top: 10%;
-    }
-
-    footer p {
-        background-color: transparent;
-        color: white;
     }
 
 }
