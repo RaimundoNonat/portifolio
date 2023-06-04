@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
 * {
-    margin: 0%;
-    border: 0%;
+    margin: 0;
 }
 
 body {
@@ -32,7 +32,7 @@ header h1 {
     margin: 5%;
     color: tomato;
     font-size: 20px;
-    height: 150px;
+    height: auto;
     cursor: pointer;
     text-align: center;
     padding: 7px;
@@ -91,6 +91,7 @@ footer {
     padding: 2%;
     font-family: 'Oswald', sans-serif;
     text-align: center;
+    display: fixed;
 }
 
 
@@ -104,4 +105,86 @@ footer img {
     margin-top: 2%;
     margin-left: 2%;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 480px) {
+   * {
+    margin: 0;
+    border: 0;
+    height: auto;
+   }
+    
+    header h1 {
+        font-size: 2em;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+    .menu {
+        border-radius: 0;
+        margin: 0%;
+        width: auto;
+        height: auto;
+        
+    }
+    .menu h2{
+        margin: 0%;
+        font-size: 12px;
+        
+    }
+    .menu h2:active{
+        border: 1px solid rgb(171, 36, 15);
+        height: auto;
+    }    
+    .menu p {
+        margin: 8% 5% 5% 5%;
+        font-size: 10px;
+    }
+    .sessao nav{
+        margin: 5%;
+    }
+
+    .titulo1 {
+        background-color: transparent;
+        width: auto;
+        padding: 0%; 
+        
+    }
+
+    .titulo1 h3{
+        text-align: left;
+        margin-top: 8%;
+        font-size: 12px;
+    }
+
+    .titulo1 img{
+        background-color: transparent;
+        width: 140px;
+        height: 70px;
+        margin: 5% 5% 0% 1%;
+        
+    }
+
+    
+    #titulo04 img {
+        width: 140px;
+        height: 70px;
+        margin: 10% 0% 0% 0%;
+    }
+
+    footer {
+        background-color: rgb(49, 45, 45);
+        padding: 2%;
+        font-size: 10px;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+     }
+
+    footer img {
+        width: 20px;        
+    }
+
 }
