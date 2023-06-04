@@ -101,11 +101,6 @@ footer p {
     .sessao p {
         font-size: 14px;
     }
-    .sessao div:hover { 
-    cursor: pointer;
-    background-color: rgb(43, 39, 46);
-    border: 1px solid rgb(22, 5, 39);
-    }
 }
 
 
