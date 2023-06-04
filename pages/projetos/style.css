@@ -32,6 +32,7 @@ header h1 {
 
 .sessao div {
     margin: 8%;
+    width: 600px;
     cursor: pointer;
     background-color: rgb(147, 58, 230);
     border: 1px solid rgb(115, 46, 180);
