@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
 
 * {
     margin: 0;
@@ -23,59 +24,59 @@ header h1 {
 
 .menu {
     display: flex;
-    background-color: rgb(49, 45, 45);
+    background-color: rgb(216, 214, 214);
     border-radius: 5px;
-    margin: 5%;
+    margin: 2%;
+    height: 300px;
 }
 
-.menu h2{
+.menu h2 {
     margin: 5%;
-    color: tomato;
+    color: rgb(95, 46, 46);
     font-size: 20px;
     height: auto;
     cursor: pointer;
-    text-align: center;
+    text-align: left;
     padding: 7px;
-    
+    font-family: 'Noto Sans JP', sans-serif;
 }
-.menu h2:active{
-    border: 1px solid rgb(171, 36, 15);
-    border-radius: 8px;
-    height: 130px;
+
+.menu h2:hover {
+    border-bottom: 2px solid rgb(95, 46, 46);
 }
 
 
 a {
     text-decoration: none;
     color: inherit;
- }
+}
 
 .menu p {
-    margin: 8% 5% 5% 5%;
-    font-size: 15px;
-    color: white;
+    margin: 5% 1% 5% 0%;
+    font-size: 70%;
+    color: rgb(53, 48, 48);
     text-align: left;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 
-.sessao nav{
+.sessao nav {
     margin: 5% 10% 5% 20%;
 }
 
 .titulo1 {
     background-color: transparent;
     width: 900px;
-    padding: 1%; 
+    padding: 1%;
     display: flex;
-    
 }
 
-.titulo1 h3{
+.titulo1 h3 {
     text-align: left;
     margin-top: 10%;
 }
 
-.sessao img{
+.sessao img {
     width: 300px;
 }
 
@@ -87,7 +88,7 @@ a {
 
 
 footer {
-   background-color: rgb(49, 45, 45);
+    background-color: rgb(49, 45, 45);
     padding: 2%;
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -106,10 +107,23 @@ footer img {
     margin-left: 2%;
     cursor: pointer;
 }
-@media (min-width: 768px) {
+
+@media (min-width: 1360px) {
     .opcoes {
         display: none;
     }
+
+    .opcoes2 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1360px) {
+    .opcoes {
+        display: none;
+    }
+
     .opcoes2 {
         display: none;
     }
@@ -120,145 +134,152 @@ footer img {
     .opcoes {
         display: none;
     }
+
     .opcoes2 {
         display: none;
     }
 
 }
 
-@media (max-width: 480px) {
-   * {
-    margin: 0;
-    border: 0;
-    height: auto;
-   }
-   header {
-    margin: 20%;
-   } 
+    @media (max-width: 480px) {
+        * {
+            margin: 0;
+            border: 0;
+            height: auto;
+        }
 
-    header h1 {
-        font-size: 3em;
-        margin-bottom: 2%;
-        text-align: center;
-    }
-    .menu {
-        border-radius: 0;
-        margin: 0%;
-        width: auto;
-        height: auto;
-        display: none;
-    }
-    .menu h2{
-        margin: 0%;
-        font-size: 11px;    
-    }
-    .menu h2:active{
-        border: 1px solid rgb(171, 36, 15);
-        height: auto;
-    }    
-    .menu p {
-        margin: 8% 5% 5% 5%;
-        font-size: 10px;
-    }
-    .sessao nav{
-        margin: 5%;
-    }
+        header {
+            margin: 12%;
+        }
 
-    .titulo1 {
-        background-color: transparent;
-        width: auto;
-        padding: 10%; 
-        
-    }
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 2%;
+            text-align: center;
+        }
 
-    .titulo1 h3{
-        text-align: left;
-        margin-top: 6%;
-        font-size: 12px;
-    }
+        .menu {
+            border-radius: 0;
+            margin: 0%;
+            width: auto;
+            height: auto;
+            display: none;
+        }
 
-    .titulo1 img{
-        background-color: transparent;
-        width: 140px;
-        height: 70px;
-        margin: 5% 5% 0% 1%;
-        
-    }
+        .menu h2 {
+            margin: 0%;
+            font-size: 11px;
+        }
 
-    
-    #titulo04 img {
-        width: 140px;
-        height: 70px;
-        margin: 10% 0% 0% 0%;
-    }
+        .menu h2:active {
+            border: 1px solid rgb(171, 36, 15);
+            height: auto;
+        }
 
-    footer {
-        background-color: rgb(49, 45, 45);
-        padding: 2%;
-        font-size: 10px;
-        font-family: 'Oswald', sans-serif;
-        text-align: center;
-     }
+        .menu p {
+            margin: 8% 5% 5% 5%;
+            font-size: 10px;
+        }
 
-    footer img {
-        width: 20px;        
-    }
+        .sessao nav {
+            margin: 5%;
+        }
 
-    .opcoes {
-        background-color: rgb(49, 45, 45);
-        color: white;
-        padding: 8%;
-        margin-bottom: 10%;
-        display: block;
-    }
-    
-    .opcoes h3 {
-        text-align: center;
-        font-size: 18px;
-        margin-top: 8%;
-        font-family: 'PT Serif', serif;
-        font-family: 'Sofia Sans', sans-serif;
-    }
-    
-    .opcoes p {
-        text-align: center;
-        font-size: 14px;
-        margin-top: 1%;
-    }
+        .titulo1 {
+            background-color: transparent;
+            width: auto;
+            padding: 10%;
 
-    .menu-carousel {
-        display: flex;
-    }
-    
-    .retorna {
-        margin: 5% 0% -8% 30%;
- 
-    
-    }
-    
-    .frente {
-        margin: 5% 0% -8% 20%;
-    
-    }
-    
-    .opcoes2 {
-        background-color: rgb(49, 45, 45);
-        color: white;
-        padding: 8%;
-        margin-bottom: 10%;
-    }
-    
-    .opcoes2 h3 {
-        text-align: center;
-        font-size: 18px;
-        margin-top: 8%;
-        font-family: 'PT Serif', serif;
-        font-family: 'Sofia Sans', sans-serif;
-    }
-    
-    .opcoes2 p {
-        text-align: center;
-        font-size: 14px;
-        margin-top: 1%;
-    }
+        }
+
+        .titulo1 h3 {
+            text-align: left;
+            margin-top: 6%;
+            font-size: 12px;
+        }
+
+        .titulo1 img {
+            background-color: transparent;
+            width: 140px;
+            height: 70px;
+            margin: 5% 5% 0% 1%;
+
+        }
+
+
+        #titulo04 img {
+            width: 140px;
+            height: 70px;
+            margin: 10% 0% 0% 0%;
+        }
+
+        footer {
+            background-color: rgb(49, 45, 45);
+            padding: 2%;
+            font-size: 10px;
+            font-family: 'Oswald', sans-serif;
+            text-align: center;
+        }
+
+        footer img {
+            width: 20px;
+        }
+
+        .opcoes {
+            background-color: rgb(49, 45, 45);
+            color: white;
+            padding: 8%;
+            margin-bottom: 10%;
+            display: block;
+        }
+
+        .opcoes h3 {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 8%;
+            font-family: 'PT Serif', serif;
+            font-family: 'Sofia Sans', sans-serif;
+        }
+
+        .opcoes p {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 1%;
+        }
+
+        .menu-carousel {
+            display: flex;
+        }
+
+        .retorna {
+            margin: 5% 0% -8% 30%;
+
+
+        }
+
+        .frente {
+            margin: 5% 0% -8% 20%;
+
+        }
+
+        .opcoes2 {
+            background-color: rgb(49, 45, 45);
+            color: white;
+            padding: 8%;
+            margin-bottom: 10%;
+        }
+
+        .opcoes2 h3 {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 8%;
+            font-family: 'PT Serif', serif;
+            font-family: 'Sofia Sans', sans-serif;
+        }
+
+        .opcoes2 p {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 1%;
+        }
     }
