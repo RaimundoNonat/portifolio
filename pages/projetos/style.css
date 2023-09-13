@@ -53,9 +53,9 @@ header h1 {
     margin: 2%;
 }
 
-.sessao div:hover { 
+.sessao div:hover {
     background-color: rgb(56, 52, 61);
-    
+
 }
 
 footer {
@@ -71,9 +71,39 @@ footer p {
     color: white;
 }
 
+@media (max-width: 1368px) {
+
+    /* Header */
+    header h1 {
+        font-size: 2rem;
+    }
+
+    /* Sessão */
+    .sessao {
+        margin: 3% 10% 2% 10%;
+    }
+
+    .sessao div {
+        margin: 2%;
+    }
+
+    .sessao img {
+        width: 140px;
+        height: 130px;
+    }
+
+    .sessao h4 {
+        font-size: 16px;
+    }
+
+    .sessao p {
+        font-size: 14px;
+    }
+}
 
 
 @media (max-width: 768px) {
+
     /* Header */
     header h1 {
         font-size: 16px;
@@ -107,7 +137,7 @@ footer p {
 
     /* Header */
     header h1 {
-       font-size: 16px;
+        font-size: 16px;
     }
 
     /* Sessão */
@@ -127,8 +157,9 @@ footer p {
     .sessao p {
         font-size: 12px;
     }
-    .sessao div:active { 
-    background-color: rgb(43, 39, 46);
-    border: 1px solid rgb(22, 5, 39);
+
+    .sessao div:active {
+        background-color: rgb(43, 39, 46);
+        border: 1px solid rgb(22, 5, 39);
     }
 }

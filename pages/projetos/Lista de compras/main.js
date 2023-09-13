@@ -4,7 +4,6 @@ const quantidade = document.querySelector('.quantidade')
 const btnAdicionar = document.querySelector('.btnAdicionar')
 const produtos = document.querySelector('.produtos')
 
-
 // Função para criar a div da lista.
 function criaDiv() {
     const div = document.createElement('div')
@@ -18,9 +17,8 @@ item.addEventListener('keypress', function (e) {
         if (!preco.value) return;
         if (!quantidade.value) return;
         criaItem(item.value)
-        criaItem(preco.value)
+        criaItem(`R$ ${preco.value}`)
         criaItem(quantidade.value)
-        limpaInput();
     }
 });
 
@@ -29,10 +27,9 @@ preco.addEventListener('keypress', function (e) {
         if (!item.value) return;
         if (!preco.value) return;
         if (!quantidade.value) return;
-        criaItem(item.value)
-        criaItem(preco.value)
-        criaItem(quantidade.value)
-        limpaInput();
+        criaItem(item.value);
+        criaItem(`R$ ${preco.value}`);
+        criaItem(quantidade.value);
     }
 });
 
@@ -41,13 +38,12 @@ quantidade.addEventListener('keypress', function (e) {
         if (!item.value) return;
         if (!preco.value) return;
         if (!quantidade.value) return;
-        criaItem(item.value)
-        criaItem(preco.value)
-        criaItem(quantidade.value)
+        criaItem(item.value);
+        criaItem(`R$ ${preco.value}`);
+        criaItem(quantidade.value);
         limpaInput();
     }
 });
-
 
 // Função para limpar o input.
 function limpaInput() {
@@ -62,7 +58,6 @@ function criaItem(textoIncluso) {
     const div = criaDiv();
     div.innerText = textoIncluso;
     produtos.appendChild(div);
-
 };
 
 // Botão ADICIONAR
@@ -74,14 +69,8 @@ btnAdicionar.addEventListener('click', function () {
     if (!preco.value) return;
     if (!quantidade.value) return;
     criaItem(item.value)
-    criaItem(preco.value)
+    criaItem(`R$ ${preco.value}`);
     criaItem(quantidade.value)
-
+    limpaInput();
 });
-
-
-
-
-
-
 
