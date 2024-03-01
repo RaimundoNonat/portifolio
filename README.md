@@ -1,2 +1,2 @@
 # portifolio
-Meu Portifólio em desenvolvimento.
+Meu Portifólio que ainda está em desenvolvimento.
