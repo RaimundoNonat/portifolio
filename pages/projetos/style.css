@@ -24,8 +24,8 @@ header h1 {
 
 /* Sessão */
 .sessao {
+    justify-content: center;
     display: flex;
-    margin: 5% 10% 5% 19%;
     text-align: center;
     border-radius: 5px;
 }
